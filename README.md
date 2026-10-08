@@ -14,7 +14,7 @@ These are Markdown instruction sets, not an application or a Vercel deployment. 
 
 ## Install
 
-This repository is currently **private**. You need access to `tomato3017/dev-skills` and working GitHub authentication. The CLI uses your configured Git credentials, GitHub CLI authentication, or SSH; installing a skill does not grant repository access.
+This repository is **public** at [tomato3017/dev-skills](https://github.com/tomato3017/dev-skills). Anyone can browse and install the skills; GitHub authentication is not required for the standard installation commands below.
 
 With Node.js and npm installed, run from the project where you want to use the skill:
 
@@ -71,7 +71,7 @@ mv inprogress/my-skill skills/my-skill
 npx skills add . --list
 ```
 
-`inprogress/` is an organizational boundary, not access control: `--full-depth` scanning can discover drafts, and recursive fallback can discover them if there are no skills in standard locations. Anyone with repository access can read them. The template's `.template` extension keeps it out of discovery.
+`inprogress/` is an organizational boundary, not access control: `--full-depth` scanning can discover drafts, and recursive fallback can discover them if there are no skills in standard locations. Drafts are public too; anyone can read them. The template's `.template` extension keeps it out of discovery.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the authoring checklist and [AGENTS.md](AGENTS.md) for instructions to agents working in this repository.
 
@@ -79,7 +79,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the authoring checklist and [AGENTS.m
 
 Before adding or sharing a skill, check it for credentials, personal information, private infrastructure details, and content you don't have permission to redistribute. Preserve required third-party notices.
 
-Private access limits who can fetch the repository; it does not prevent recipients from copying installed skill files.
+All committed content, including drafts and Git history, is publicly accessible. Skills may be copied and redistributed under the [MIT License](LICENSE), subject to any applicable third-party notices.
 
 ## License
 

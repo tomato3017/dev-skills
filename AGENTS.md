@@ -1,6 +1,6 @@
 # Working in Dev Skills
 
-This is Anthony Kirksey's personal collection of reusable coding-agent skills, hosted at `tomato3017/dev-skills`. It is a private, Markdown-first repository compatible with Vercel's skills CLI—not an application or a Vercel deployment.
+This is Anthony Kirksey's personal collection of reusable coding-agent skills, hosted at `tomato3017/dev-skills`. It is a public, Markdown-first repository compatible with Vercel's skills CLI—not an application or a Vercel deployment.
 
 ## Repository conventions
 
@@ -29,5 +29,5 @@ Keep [README.md](README.md) personalized to this repository, not generic starter
 - Verify relative Markdown links and referenced supporting files exist.
 - For skill changes, run `npx skills add . --list` and confirm the intended finished skills appear; check drafts using their explicit local paths.
 - When instructions change behavior, try the skill with the intended agent in a scratch project where practical. Report what was actually checked and what was not.
-- Review new content for secrets, personal information, private infrastructure details, and redistribution rights. Preserve third-party license notices; the repository uses [MIT](LICENSE).
+- All committed content, including drafts and Git history, is public. Review new content for secrets, personal information, private infrastructure details, and redistribution rights before committing. Preserve third-party license notices; the repository uses [MIT](LICENSE).
 - Do not commit, push, publish, change repository visibility, or grant access without the user's request or approval.
