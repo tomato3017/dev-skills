@@ -1,6 +1,6 @@
 # Working in Dev Skills
 
-This is Anthony Kirksey's personal collection of reusable coding-agent skills, hosted at `tomato3017/dev-skills`. It is a public, Markdown-first repository compatible with Vercel's skills CLI—not an application or a Vercel deployment.
+This is Anthony Kirksey's personal collection of reusable coding-agent skills, hosted at `tomato3017/dev-skills`. It is a Markdown-first repository compatible with Vercel's skills CLI—not an application or a Vercel deployment.
 
 ## Repository conventions
 
@@ -19,7 +19,8 @@ Keep [README.md](README.md) personalized to this repository, not generic starter
 - Use the actual repository name and `tomato3017/dev-skills` in install commands.
 - Describe the skills that actually exist, with relative links and concise descriptions in the available-skills table.
 - Update the table when a skill is added, renamed, removed, or promoted from `inprogress/`.
-- Keep the layout, draft workflow, authentication guidance, and repository visibility accurate when they change.
+- Keep the README concise: purpose, available skills, installation, authoring workflow, and license. Skip obvious visibility notes and generic boilerplate.
+- Keep the layout and draft workflow accurate when they change.
 - Do not claim skills have been behavior-tested, externally audited, or endorsed by Vercel without evidence.
 - Do not describe `inprogress/` as hidden or protected: full-depth scanning can discover drafts, and recursive fallback can do so when standard locations contain no skills.
 
@@ -29,5 +30,5 @@ Keep [README.md](README.md) personalized to this repository, not generic starter
 - Verify relative Markdown links and referenced supporting files exist.
 - For skill changes, run `npx skills add . --list` and confirm the intended finished skills appear; check drafts using their explicit local paths.
 - When instructions change behavior, try the skill with the intended agent in a scratch project where practical. Report what was actually checked and what was not.
-- All committed content, including drafts and Git history, is public. Review new content for secrets, personal information, private infrastructure details, and redistribution rights before committing. Preserve third-party license notices; the repository uses [MIT](LICENSE).
+- Review new content for secrets, personal information, private infrastructure details, and redistribution rights before committing. Preserve third-party license notices; the repository uses [MIT](LICENSE).
 - Do not commit, push, publish, change repository visibility, or grant access without the user's request or approval.
